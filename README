@@ -1,0 +1,24 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1267
+
+This is a vim remake of an old macro I had for Multi-Edit, handy it was though
+not so necessary with VIM, given A and :s but this will not mess up your cursor
+position, works on a range, etc. It has some use.
+
+There are default/example mappings for both visual and normal modes:
+
+For end of line toggling:
+
+<leader>;    toggles ";" at end of line.
+<leader>,    toggles "," at end of line.
+<leader>:    toggles ":" at end of line.
+
+
+For start of line: (start of line for this is first non white space char, like
+^ as opposed to 0 )
+
+<leader>s,    toggles ", " at start of line.
+<leader>s:    toggles ": " at start of line.
+
+
+NOTE that you can toggle strings not just chars; I.e. ":TSOL --", ":TEOL --"
+and so on.
